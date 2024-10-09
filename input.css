@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 html {
-  @apply over scroll-smooth;
+  @apply scroll-smooth;
 }
 
 body {
@@ -43,7 +43,7 @@ h3 {
 }
 
 .title {
-  @apply font-Lobster text-yellow-500;
+  @apply font-Lato text-yellow-500;
 }
 
 /* button */
@@ -77,4 +77,10 @@ h3 {
 
 .border_bawah h1 {
   @apply border-green-600;
+}
+
+@layer components {
+  .font-Lato {
+    font-family: "Lato", sans-serif;
+  }
 }

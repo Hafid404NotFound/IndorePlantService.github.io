@@ -7,7 +7,7 @@
     <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
     <link
       rel="sortcut icon"
-      href="assets/img/favicon.ico"
+      href="assets/img/pavicon.ico"
       type="image/x-icon"
     />
     <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
@@ -21,14 +21,16 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./output.css" />
-    <title>PlantService</title>
+    <title>PESANA LEUWI</title>
   </head>
 
   <body class="overflow-auto">
     <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
     <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
       <nav class="container flex items-center justify-between h-16 sm:h-20">
-        <div class="font-Lobster sm:text-2xl">IndorePlantService</div>
+        <div class="font-Jost sm:text-2xl cursor-pointer" id="logo">
+          <strong>PESANA LEUWI</strong>
+        </div>
 
         <div
           id="nav-menu"
@@ -37,6 +39,9 @@
           <ul class="flex flex-col items-center gap-8 lg:flex-row">
             <li>
               <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li>
+              <a href="#fitur" class="nav-link active">Fitur</a>
             </li>
 
             <li>
@@ -83,33 +88,27 @@
             <!-- Content -->
             <div class="w-full space-y-5 lg:w-1/2">
               <h1>
-                <span class="text-yellow-500">Guaranteed</span> Trusted <br />
-                Flower Maintenance
-                <span class="text-yellow-500">services </span> in <br />
-                Jabodetabek
+                <span class="text-yellow-500">Selamat datang,</span>
+                <br />
+                Kami menyediakan informasi
+                <!-- <span class="text-yellow-500"> Untuk membantu </span> mencari
+                <br /> -->
+                <span class="text-yellow-500"> Destinasi wisata </span> dan
+                informasi seputar <span class="text-yellow-500"> Kuliner</span>
               </h1>
-              <p class="text-slate-300 font-Lobster">
-                Want your garden to always look beautiful and fresh? We are the
-                best flower care solution in Jabodetabek. With experts and years
-                of experience, we guarantee customer satisfaction.
+              <p class="text-slate-300 font-Jost">
+                Temukan tempat-tempat baru dan nikmati pengalaman kuliner yang
+                tak terlupakan bersama kami!
               </p>
 
               <div
                 class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10"
               >
                 <button class="btn">
-                  <span>Order Now</span> <i class="ri-leaf-line"></i>
-                </button>
-
-                <button class="btn btn_outline">
-                  <span>Know More</span>
-                  <i class="ri-leaf-line"></i>
+                  <i class="ri-google-play-fill"></i> <span>Google Play</span>
                 </button>
               </div>
 
-              <p class="text-xs font-Lobster text-slate-300">
-                Free maintenance fee for 10 service calls (Collect our Coupon)
-              </p>
               <div class="flex items-center gap-5 text-lg lg:pt-10">
                 <i
                   class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"
@@ -127,7 +126,7 @@
             </div>
             <!-- IMAGE -->
             <div class="w-full relative lg:w-1/2">
-              <img src="assets/img/home.png" alt="home_image" />
+              <img src="assets/img/hero.png" alt="home_image" />
 
               <!-- leaf -->
               <div
@@ -155,98 +154,71 @@
       </section>
 
       <!--~~~~~~~~~~~~~~~ Services ~~~~~~~~~~~~~~~-->
-      <div>
+      <section id="fitur" class="relative">
         <div>
-          <div class="bg-white text-green-900 py-20">
-            <div
-              class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
-            >
-              <!-- card 1 -->
-              <div
-                class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300"
-              >
-                <div class="flex items-center gap-5">
-                  <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
-                  <p class="md:text-lg font-bold">
-                    Fast <br />
-                    Delivery
-                  </p>
-                </div>
-                <p class="font-Lobster">
-                  Our team of experts is at your service 24/7. Delivery of
-                  fertilizers and treatment tools within 2 hours!”
-                  <strong>“Plant Dead?”</strong> Don't worry! We replace your
-                  plants within 24 hours.”
-                </p>
-              </div>
+          <div>
+            <div class="bg-white text-green-900 py-20 text-center">
+              <h2 class="font-Lobster">Fitur-Fitur PesanaLeuwi</h2>
 
-              <!-- card 2 -->
               <div
-                class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300"
+                class="container mx-auto w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mt-20 max-w-4xl"
               >
-                <div class="flex items-center gap-5">
-                  <i
-                    class="ri-customer-service-line text-3xl md:text-4xl xl:text-5xl"
-                  ></i>
-                  <p class="md:text-lg font-bold">
-                    Great Customer <br />
-                    Service
+                <!-- Fitur 1: Peta Interaktif -->
+                <div
+                  class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300"
+                >
+                  <div class="flex items-center gap-5">
+                    <i
+                      class="ri-map-pin-line text-3xl md:text-4xl xl:text-5xl"
+                    ></i>
+                    <p class="md:text-lg font-bold">Peta Interaktif</p>
+                  </div>
+                  <p class="font-Jost">
+                    Temukan lokasi wisata dan kuliner dengan mudah menggunakan
+                    peta interaktif kami.
                   </p>
                 </div>
-                <p class="font-Lobster">
-                  In the event of an urgent problem with the garden, such as a
-                  severe pest infestation or sudden wilting of plants, a
-                  maintenance team can be dispatched to the customer's location
-                  immediately.
-                </p>
-              </div>
 
-              <!-- card 3 -->
-              <div
-                class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-500"
-              >
-                <div class="flex items-center gap-5">
-                  <i class="ri-plant-line text-3xl md:text-4xl xl:text-5xl"></i>
-                  <p class="md:text-lg font-bold">
-                    Original <br />
-                    Assured fertilizer
+                <!-- Fitur 2: Katalog Wisata -->
+                <div
+                  class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300"
+                >
+                  <div class="flex items-center gap-5">
+                    <i
+                      class="ri-gallery-line text-3xl md:text-4xl xl:text-5xl"
+                    ></i>
+                    <p class="md:text-lg font-bold">Katalog Wisata</p>
+                  </div>
+                  <p class="font-Jost">
+                    Jelajahi berbagai tempat wisata menarik di Leuwi Malang
+                    dengan foto dan deskripsi lengkap.
                   </p>
                 </div>
-                <p class="font-Lobster">
-                  <strong>Specific for certain types of plants:</strong>
-                  Fertilizers are specially formulated to meet the nutritional
-                  needs of certain types of plants, thus providing optimal
-                  results.
-                </p>
-              </div>
 
-              <!-- card 4 -->
-              <div
-                class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300"
-              >
-                <div class="flex items-center gap-5">
-                  <i
-                    class="ri-money-dollar-circle-line text-3xl md:text-4xl xl:text-5xl"
-                  ></i>
-                  <p class="md:text-lg font-bold">
-                    Affordable <br />
-                    Price
+                <!-- Fitur 3: Direktori Kuliner -->
+                <div
+                  class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300"
+                >
+                  <div class="flex items-center gap-5">
+                    <i
+                      class="ri-restaurant-line text-3xl md:text-4xl xl:text-5xl"
+                    ></i>
+                    <p class="md:text-lg font-bold">Direktori Kuliner</p>
+                  </div>
+                  <p class="font-Jost">
+                    Temukan beragam pilihan kuliner khas Leuwi Malang, lengkap
+                    dengan informasi menu dan harga.
                   </p>
                 </div>
-                <p class="font-Lobster">
-                  want to look beautiful and beautiful flowers in the garden,
-                  now just calm down we can save you time to take care of this
-                  all, and focus on work
-                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!--~~~~~~~~~~~~~~~ About us ~~~~~~~~~~~~~~~-->
       <section id="about" class="relative overflow-hidden">
-        <div class="absolute -top-10 -right-12 opacity-50">
+        <div class="absolute -top-2 -right-12 opacity-50">
           <img
             src="assets/img/leaf-3.png"
             alt="leaf_image"
@@ -256,8 +228,8 @@
         <div
           class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
-          <h2 class="title">About Us</h2>
-          <p class="max-w-2xl">More than just taking care of plants</p>
+          <h2 class="font-Lobster">About Us</h2>
+          <p class="max-w-2xl">Meet our team</p>
         </div>
 
         <div class="container space-y-10 xl:space-y-0">
@@ -276,12 +248,15 @@
             <div class="w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3>
-                  Make your <span class="text-yellow-500">organic</span> <br />
-                  garden
+                  Galuh Putri Maharani <br />
+                  <span class="text-yellow-500">Chief Executive Officer</span>
+                  <br />
                 </h3>
-                <p class="text-slate-300 font-Lobster">
-                  Trusted Organic Garden. We guarantee your garden and plants
-                  will grow lush and healthy with our organic treatments.
+                <p class="text-slate-300 font-Jost">
+                  Hai, saya Galuh Putri Maharani dari Universitas Padjadjaran.
+                  Di hackathon kali ini, saya sebagai CEO, siap memimpin tim dan
+                  mengarahkan visi serta strategi kami. Mari bersama-sama
+                  menciptakan solusi yang luar biasa!
                 </p>
               </div>
             </div>
@@ -301,145 +276,45 @@
             <div class="w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3>
-                  Come with us <br />
-                  <span class="text-yellow-500">grow up</span>
-                  your garden & plant
+                  Muhammad hafidz<br />
+
+                  <span class="text-yellow-500">Chief Technology Officer </span>
                 </h3>
-                <p class="text-slate-300 font-Lobster">
-                  From Seedling to Bloom. Together we will watch your garden
-                  grow and flourish
+                <p class="text-slate-300 font-Jost">
+                  Hai, saya Muhammad Hafidz dari Jakarta Global University. Di
+                  hackathon kali ini, saya sebagai CTO, siap memimpin strategi
+                  teknologi dan inovasi. Mari bersama-sama menciptakan solusi
+                  yang luar biasa!
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!--~~~~~~~~~~~~~~~ Popular ~~~~~~~~~~~~~~~-->
-      <section id="popular" class="bg-green-900">
-        <div
-          class="flex flex-col items-center gap-3 text-center mb-40 md:mb-28"
-        >
-          <h2 class="title">Available for purchase</h2>
-          <p class="max-w-2xl">limited stock</p>
-        </div>
-
-        <div
-          class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
-        >
-          <!-- card 1 -->
-          <div
-            class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
-          >
-            <img
-              src="assets/img/cart-1.png"
-              alt="popular_image"
-              class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
-            />
-            <p class="italic">Nephrolepis exaltata</p>
-            <h3>Boston Fern</h3>
-
-            <div class="text-yellow-500 text-xs py-3">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-half-fill"></i>
-              <i class="ri-star-line text-gray-400"></i>
-              <i class="ri-star-line text-gray-400"></i>
+          <div class="flex flex-col items-center lg:flex-row gap-5 mb-20">
+            <!-- image -->
+            <div class="w-full lg:w-1/2">
+              <img
+                src="assets/img/plant-3.png"
+                alt="about_image"
+                class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto"
+              />
             </div>
 
-            <div class="flex items-center justify-between">
-              <p class="text-xl">Rp. 30.000</p>
+            <!-- content -->
+            <div class="w-full lg:w-1/2">
+              <div class="space-y-5">
+                <h3>
+                  Jesika Yohanna Simorangkir<br />
 
-              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
-                <i class="ri-shopping-cart-fill"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- card 2 -->
-          <div
-            class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
-          >
-            <img
-              src="assets/img/cart-2.png"
-              alt="popular_image"
-              class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
-            />
-            <p class="italic">Ficus elastica</p>
-            <h3>Rubber Plant</h3>
-
-            <div class="text-yellow-500 text-xs py-3">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-half-fill"></i>
-              <i class="ri-star-line text-gray-400"></i>
-              <i class="ri-star-line text-gray-400"></i>
-            </div>
-
-            <div class="flex items-center justify-between">
-              <p class="text-xl">Rp. 60.000</p>
-
-              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
-                <i class="ri-shopping-cart-fill"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- card 3 -->
-          <div
-            class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
-          >
-            <img
-              src="assets/img/cart-3.png"
-              alt="popular_image"
-              class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
-            />
-            <p class="italic">Spathiphyllum wallisii</p>
-            <h3>Peace Lily</h3>
-
-            <div class="text-yellow-500 text-xs py-3">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-half-fill"></i>
-              <i class="ri-star-line text-gray-400"></i>
-              <i class="ri-star-line text-gray-400"></i>
-            </div>
-
-            <div class="flex items-center justify-between">
-              <p class="text-xl">Rp. 50.000</p>
-
-              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
-                <i class="ri-shopping-cart-fill"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- card 4 -->
-          <div
-            class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
-          >
-            <img
-              src="assets/img/cart-4.png"
-              alt="popular_image"
-              class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
-            />
-            <p class="italic">Adenium obesum</p>
-            <h3>Desert Rose</h3>
-
-            <div class="text-yellow-500 text-xs py-3">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-half-fill"></i>
-              <i class="ri-star-line text-gray-400"></i>
-              <i class="ri-star-line text-gray-400"></i>
-            </div>
-
-            <div class="flex items-center justify-between">
-              <p class="text-xl">Rp. 45.000</p>
-
-              <button class="bg-yellow-500 px-2 py-1 rounded-sm text-xl">
-                <i class="ri-shopping-cart-fill"></i>
-              </button>
+                  <span class="text-yellow-500">Chief Marketing Officer </span>
+                </h3>
+                <p class="text-slate-300 font-Jost">
+                  hai, saya Jesika Yohanna Simorangkir dari Universitas Sumatera
+                  Utara di hackathon kali ini saya sebagai CMO, siap memimpin
+                  strategi pemasaran dan inovasi. Mari bersama-sama menciptakan
+                  pengalaman yang luar biasa!
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -457,8 +332,8 @@
         <div
           class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
-          <h2 class="title">Customer Riview</h2>
-          <p class="max-w-2xl">More than just taking care of plants</p>
+          <h2 class="font-Lobster">Ulasan Pengguna</h2>
+          <p class="max-w-2xl">Pengalaman pengunjung di Leuwi Malang</p>
         </div>
         <div class="container">
           <div class="swiper py-12">
@@ -466,19 +341,19 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-Lobster">
-                    "Taman saya benar-benar berubah setelah dirawat oleh tim
-                    ini! Tanaman-tanaman terlihat lebih segar dan subur. Saya
-                    sangat puas dengan hasilnya."
+                    "Berkat PesanaLeuwi, saya menemukan tempat wisata
+                    tersembunyi yang indah di Leuwi Malang. Peta interaktifnya
+                    sangat membantu!"
                   </p>
                   <div class="flex items-center">
                     <img
                       src="assets/img/review-1.jpg"
-                      alt="riview_Image"
+                      alt="review_Image"
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-12">
-                      <p class="text-yellow-500 uppercase">Atiqah Hasiholan</p>
-                      <p>Artis</p>
+                      <p class="text-yellow-500 uppercase">Andi Pratama</p>
+                      <p>Pengunjung</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -488,19 +363,19 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-Lobster">
-                    "Saya tidak menyangka taman yang awalnya terlihat kumuh bisa
-                    menjadi seindah ini. Terima kasih atas kerja keras dan
-                    dedikasinya."
+                    "Direktori kuliner di aplikasi ini luar biasa! Saya bisa
+                    mencoba berbagai makanan khas Leuwi Malang yang belum pernah
+                    saya coba sebelumnya."
                   </p>
                   <div class="flex items-center">
                     <img
                       src="assets/img/review-2.jpg"
-                      alt="riview_Image"
+                      alt="review_Image"
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-12">
-                      <p class="text-yellow-500 uppercase">Meira Anastasia</p>
-                      <p>istri Ernest Prakasa</p>
+                      <p class="text-yellow-500 uppercase">Siti Nurhaliza</p>
+                      <p>Food Blogger</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -510,19 +385,19 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-Lobster">
-                    "Tim perawatan tamannya sangat ramah dan profesional. Mereka
-                    selalu memberikan penjelasan yang detail tentang perawatan
-                    tanaman."
+                    "Katalog wisata PesanaLeuwi sangat informatif. Saya bisa
+                    merencanakan perjalanan dengan lebih baik berkat informasi
+                    yang lengkap."
                   </p>
                   <div class="flex items-center">
                     <img
                       src="assets/img/review-3.jpg"
-                      alt="riview_Image"
+                      alt="review_Image"
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-12">
-                      <p class="text-yellow-500 uppercase">Ayu Ting-ting</p>
-                      <p>Penyanyi</p>
+                      <p class="text-yellow-500 uppercase">Budi Santoso</p>
+                      <p>Traveler</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -532,84 +407,19 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-Lobster">
-                    "Produk organik yang mereka gunakan sangat bagus. Tanaman
-                    saya menjadi lebih sehat dan tahan terhadap hama."
+                    "Aplikasi ini membuat perjalanan saya ke Leuwi Malang
+                    menjadi lebih menyenangkan. Rekomendasi tempat wisata dan
+                    kulinernya sangat akurat!"
                   </p>
                   <div class="flex items-center">
                     <img
                       src="assets/img/review-4.jpg"
-                      alt="riview_Image"
+                      alt="review_Image"
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-12">
-                      <p class="text-yellow-500 uppercase">Giring Ganesha</p>
-                      <p>Penyanyi & Politikus</p>
-                    </div>
-                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
-                  </div>
-                </div>
-              </li>
-
-              <li class="swiper-slide">
-                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
-                  <p class="font-Lobster">
-                    "Desain taman yang mereka buat sangat unik dan sesuai dengan
-                    keinginan saya. Saya sangat menyukai konsep taman yang
-                    mereka tawarkan."
-                  </p>
-                  <div class="flex items-center">
-                    <img
-                      src="assets/img/review-5.jpg"
-                      alt="riview_Image"
-                      class="w-12 h-12 rounded-full"
-                    />
-                    <div class="ml-12">
-                      <p class="text-yellow-500 uppercase">Tantri Kotak</p>
-                      <p>Musisi</p>
-                    </div>
-                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
-                  </div>
-                </div>
-              </li>
-
-              <li class="swiper-slide">
-                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
-                  <p class="font-Lobster">
-                    "Selain merawat taman, mereka juga memberikan tips-tips
-                    perawatan tanaman yang sangat bermanfaat. Saya jadi lebih
-                    paham cara merawat tanaman dengan baik."
-                  </p>
-                  <div class="flex items-center">
-                    <img
-                      src="assets/img/review-6.jpg"
-                      alt="riview_Image"
-                      class="w-12 h-12 rounded-full"
-                    />
-                    <div class="ml-12">
-                      <p class="text-yellow-500 uppercase">Dimas Anggara</p>
-                      <p>Aktor</p>
-                    </div>
-                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
-                  </div>
-                </div>
-              </li>
-
-              <li class="swiper-slide">
-                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
-                  <p class="font-Lobster">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Similique culpa ut amet voluptas asperiores alias sed
-                    consequatur.
-                  </p>
-                  <div class="flex items-center">
-                    <img
-                      src="assets/img/review-7.jpg"
-                      alt="riview_Image"
-                      class="w-12 h-12 rounded-full"
-                    />
-                    <div class="ml-12">
-                      <p class="text-yellow-500 uppercase">Rara Sekar</p>
-                      <p>Musisi & Aktivis</p>
+                      <p class="text-yellow-500 uppercase">Dewi Lestari</p>
+                      <p>Wisatawan</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -629,23 +439,20 @@
       <div
         class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2"
       >
-        <div class="bg-green-900 px-10 pb-5 space-y-5 rounded-md">
+        <div class="bg-green-900 px-10 py-5 space-y-5 rounded-md text-center">
           <h3>
-            <span class="text-yellow-500">Subscribe</span> to our newsletter
-            Subscribe
+            <span class="text-yellow-500">Hubungi kami</span> melalui WhatsApp
           </h3>
-          <div class="flex flex-col md:flex-row gap-1">
-            <input
-              type="email"
-              placeholder="Your email address"
-              class="w-full px-5 py-3 text-green-900 rounded-md outline-none"
-            />
-            <button
-              class="flex justify-center bg-green-950 px-5 py-3 rounded-md hover:opacity-60 duration-300 gap-1"
+          <div class="flex justify-center">
+            <a
+              href="https://wa.me/62895366450806"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center bg-green-950 px-5 py-3 rounded-md hover:opacity-60 duration-300 gap-2"
             >
-              <span>Subscribe</span>
-              <i class="ri-send-plane-2-fill"></i>
-            </button>
+              <i class="ri-whatsapp-line text-2xl"></i>
+              <span>Hubungi via WhatsApp</span>
+            </a>
           </div>
         </div>
       </div>
@@ -681,52 +488,55 @@
         <!-- Item 1 -->
         <div>
           <div class="text-7xl text-green-700 text-center inline-block">
-            <i class="ri-leaf-fill"></i>
-            <p class="font-Lobster text-xl sm:text-2xl">IndorePlantsService.</p>
+            <img
+              src="assets/img/logo.png"
+              alt="logo"
+              class="w-100 h-100 sm:w-40 sm:h-100"
+            />
+            <p class="font-Jost text-xl sm:text-2x">PesanaLeuwi.</p>
           </div>
         </div>
         <!-- item 2 -->
         <div>
-          <p class="mb-5 font-bold text-xl">Quick Link</p>
+          <p class="mb-5 font-bold text-xl">Tautan Cepat</p>
           <div class="flex flex-col gap1">
-            <a href="#">Plants</a>
-            <a href="#">Flowers</a>
-            <a href="#">Gerdening</a>
-            <a href="#">Seeds</a>
-            <a href="#">Shipping</a>
+            <a href="#">Beranda</a>
+            <a href="#">Peta Interaktif</a>
+            <a href="#">Katalog Wisata</a>
+            <a href="#">Direktori Kuliner</a>
+            <a href="#">Tentang Kami</a>
           </div>
         </div>
 
         <!-- item 3-->
         <div>
-          <p class="mb-5 font-bold text-xl">Popular Services</p>
+          <p class="mb-5 font-bold text-xl">Layanan Populer</p>
           <div class="flex flex-col gap1">
-            <a href="#">Tree Planting</a>
-            <a href="#">Grass Cutting</a>
-            <a href="#">Weeds Control</a>
-            <a href="#">Project</a>
+            <a href="#">Rekomendasi Wisata</a>
+            <a href="#">Panduan Kuliner</a>
+            <a href="#">Informasi Acara Lokal</a>
+            <a href="#">Tips Perjalanan</a>
+            <a href="#">Ulasan Pengunjung</a>
           </div>
         </div>
 
-        <!-- ?item 4 -->
+        <!-- item 4 -->
         <div>
-          <p class="mb-5 font-bold text-xl">Contact Us</p>
+          <p class="mb-5 font-bold text-xl">Hubungi Kami</p>
           <div class="flex flex-col gap1">
             <a href="tel:+62895322500481">tel:+62895322500481</a>
-            <a href="mailto:indorePlaneService.JBDTB@gmail.com"
-              >indorePlaneService.JBDTB@gmail.com</a
+            <a href="mailto:pesanaLeuwi.2k24@gmail.com"
+              >pesanaLeuwi.2k24@gmail.com</a
             >
             <br />
-            <p>Bekasi. indonesia</p>
+            <p>Leuwi Malang, Bogor, Indonesia</p>
           </div>
         </div>
       </div>
 
       <!-- copyright -->
       <div class="container">
-        <p class="text-center mt-10 opacity-50">
-          Copyright © Hafid1994-404NotFound 2024
-        </p>
+        <p class="text-center mt-10 opacity-50">Copyright © PesanaLeuwi 2024</p>
       </div>
 
       <!-- floral image -->

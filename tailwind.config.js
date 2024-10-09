@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    extend: {},
     screens: {
       sm: "340px",
       md: "540px",
@@ -34,10 +35,6 @@ module.exports = {
       rotating: "rotate 15s linear infinite",
       scalingUp: "scalup 3s linear infinite",
     },
-    fontFamily: {
-      Jost: ["Jost", "sans - serif"],
-      Lobster: ["Lobster", "sans-serif"],
-    },
     container: {
       center: true,
       padding: {
@@ -66,7 +63,7 @@ module.exports = {
     },
     fontFamily: {
       Jost: ["Jost", "sans-serif"],
-      Lobster: ["Lobster", "sans-seri"],
+      Lobster: ["Lobster", "sans-serif"],
     },
     container: {
       center: true,
